@@ -1,0 +1,7 @@
+http://localhost/learn-ci/codeigniter/index.php/test/index
+
+localhost: alamat server
+learn-ci/codeigniter : nama direktori
+index.php : nama controller default untuk ci
+test : nama controller/class
+index : nama method/fungsi dalam controller
