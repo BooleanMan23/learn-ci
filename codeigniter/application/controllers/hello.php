@@ -2,7 +2,7 @@
 
     class Hello extends CI_Controller{
         public function index(){
-            $this->load->('contoh_view');
+            $this->load->view('contoh_view');
         }
 
         public function helloTwo(){

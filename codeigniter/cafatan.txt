@@ -21,3 +21,7 @@ aturan pembuatan model
 2. nama model harus sama dengan nama file model
 3. nama class diawali huruf besar
 4. tidak boleh ada nama fungsi yang sama dalam 1 model
+
+aturan pembuatan view
+1. view disimpan dalam direktori Applications/views
+2. 
