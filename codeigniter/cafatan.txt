@@ -5,3 +5,13 @@ learn-ci/codeigniter : nama direktori
 index.php : nama controller default untuk ci
 test : nama controller/class
 index : nama method/fungsi dalam controller
+
+perbedaan uri dan url 
+URL : uniform resource locator
+URI : uniform resource identifier 
+
+aturan pembuatan controller
+1. controller disimpan pada direktori Application/controllers/
+2. nama controller harus sama dengan file controller
+3. awal class menggunakan nama besar
+4. tidak boleh ada nama function yang sama dalam satu kelas controller
