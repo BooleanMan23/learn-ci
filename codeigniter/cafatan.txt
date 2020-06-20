@@ -15,3 +15,9 @@ aturan pembuatan controller
 2. nama controller harus sama dengan file controller
 3. awal class menggunakan nama besar
 4. tidak boleh ada nama function yang sama dalam satu kelas controller
+
+aturan pembuatan model
+1. model disipan dalam direktori Application/models
+2. nama model harus sama dengan nama file model
+3. nama class diawali huruf besar
+4. tidak boleh ada nama fungsi yang sama dalam 1 model
