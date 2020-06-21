@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function dashboard()
+	public function index()
 	{
 		$this->load->view('templates/header');
 		$this->load->view('templates/sidebar');
