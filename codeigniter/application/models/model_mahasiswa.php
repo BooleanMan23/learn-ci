@@ -10,6 +10,24 @@
        {
         $this->db->insert($tableName, $data);
        }
+
+       public function delete($mahasiswaId, $table){
+          $this->db->where($mahasiswaId);
+          $this->db->delete($table);
+
+       }
+
+       public function edit($mahasiswaId, $tableName){
+        return $this->db->get_where($tableName, $mahasiswaId);
+
+       }
+
+       public function update($mahasiswaId, $data, $tableName){
+          $this->db->where($mahasiswaId);
+          $this->db->update($tableName, $data);
+       }
+
+       
      }
 
 
