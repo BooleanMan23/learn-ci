@@ -20,8 +20,11 @@
             <form  action="<?php echo base_url(). '/mahasiswa/delete/' . $row['mahasiswa_id']  ?>" method = "POST">
                  <td><button type = "submit" onclick = "javascript: return confirm('apakah anada yakin ingin')" a class = "btn btn-danger btn-sm"><i class = "fa fa-trash"></i></button></td>
             </form>
-            <form action="<?php echo base_url(). '/mahasiswa/edit/' . $row['mahasiswa_id']  ?>">
+            <form action="<?php echo base_url(). '/mahasiswa/edit/' . $row['mahasiswa_id']  ?>" method = "POST">
                    <td><button class = "btn btn-primary btn-sm"><i class = "fa fa-edit"></i></button></td>
+            </form>
+            <form action="<?php echo base_url(). '/mahasiswa/detail/' . $row['mahasiswa_id']  ?>" method = "POST">
+                   <td><button class = "btn btn-primary btn-sm"><i class = "fa fa-search-plus"></i></button></td>
             </form>
         </tr>
     <?php endforeach;?>

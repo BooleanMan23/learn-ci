@@ -27,6 +27,12 @@
           $this->db->update($tableName, $data);
        }
 
+       public function detail($mahasiswaId = NULL){
+          $query = $this->db->get_where('mahasiswa',
+          array('mahasiswa_id' => $mahasiswaId))->row();
+          return $query;
+       }
+
        
      }
 

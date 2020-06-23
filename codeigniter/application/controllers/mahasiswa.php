@@ -62,6 +62,15 @@
 
         }
 
+        public function detail($mahasiswaId){
+            $this->load->model('model_mahasiswa');
+            $detailMahasiswa = $this->model_mahasiswa->detail($mahasiswaId);
+            $data['detailMahasiswa'] = $detailMahasiswa;
+            $this->load->view('templates/header');
+            $this->load->view('view_mahasiswa/view_mahasiswa_detail', $data);
+            $this->load->view('templates/footer');
+        }
+
         
     }
 
