@@ -44,7 +44,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="<?php echo base_url(). '/mahasiswa/add'?>" method = "POST">
+       <?php echo form_open_multipart(base_url() .'/mahasiswa/add');?>
             <div class = "form-group">
                 <label>Nama</label>
                 <input type="text" name="mahasiswa_name" class="form-control">
@@ -65,10 +65,14 @@
                 <label>Jurusan</label>
                 <input type="text" name="mahasiswa_majors" class="form-control">
             </div>
+            <div class = "form-group">
+                <label>Foto Profil</label>
+                <input type="file" name="mahasiswa_photo" class="form-control"  accept="image/*">
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
                 <button type="input" class="btn btn-primary">Tambah mahasiswa</button>
-              </div>
+            </div>
         </form>
       </div>
    

@@ -3,6 +3,12 @@
         <h4><strong>Detail Data Mahasiswa</strong></h4>
         <table class = "table">
             <tr>
+                <th>Foto Mahasiswa</th>
+                <td><?php echo $detailMahasiswa->mahasiswa_photo?></td>
+               
+                <img src="<?php echo $detailMahasiswa->mahasiswa_photo; ?>">
+            </tr>
+            <tr>
                 <th>Nama Lengkap</th>
                 <td><?php echo $detailMahasiswa->mahasiswa_name?></td>
             </tr>
